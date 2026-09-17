@@ -1,0 +1,338 @@
+{
+  "fromCommit": "a35b13361997981b0808b4f3b18d4760e8a219b5",
+  "generatedAt": "2026-09-12T18:16:34.742Z",
+  "model": "",
+  "lang": "",
+  "moduleFiles": {
+    "MCP Server & Web Interface": [
+      "src/server.py",
+      "src/render_html.py",
+      "src/templates/_base.html",
+      "src/templates/_nav.html",
+      "src/templates/_reloader.js",
+      "src/templates/_theme.js",
+      "src/templates/_view_toggle.js",
+      "src/templates/error.html",
+      "src/templates/index.html",
+      "src/templates/page.html",
+      "src/templates/tree.html",
+      "src/static/styles.css",
+      "src/static/water.css/water.css",
+      "main.py"
+    ],
+    "Workspace Store & Persistence": [
+      "src/store.py",
+      "src/serialize.py",
+      "src/model.py",
+      "src/rwlock.py",
+      "src/ids.py",
+      "src/cleanup.py"
+    ],
+    "Command & Mutation Engine": [
+      "src/commands.py",
+      "src/errors.py"
+    ],
+    "Page Type Framework": [
+      "src/pagetypes/core/__init__.py",
+      "src/pagetypes/core/pagetype.py",
+      "src/pagetypes/core/args.py",
+      "src/pagetypes/core/commands.py",
+      "src/pagetypes/core/fields.py",
+      "src/pagetypes/core/specs.py",
+      "src/pagetypes/core/validation.py",
+      "src/pagetypes/__init__.py",
+      "src/pagetypes/_registry.py",
+      "src/__init__.py"
+    ],
+    "Page Type Definitions": [
+      "src/pagetypes/architecture.py",
+      "src/pagetypes/bug_report.py",
+      "src/pagetypes/decision_record.py",
+      "src/pagetypes/document.py",
+      "src/pagetypes/epic.py",
+      "src/pagetypes/feature.py",
+      "src/pagetypes/simple_change.py",
+      "src/pagetypes/toc.py",
+      "src/pagetypes/_stage_guidance.py",
+      "src/pagetypes/_workspace_guidance.py"
+    ],
+    "State Machines & Statecharts": [
+      "src/fsm.py",
+      "src/statecharts.py"
+    ],
+    "Markdown Rendering": [
+      "src/render.py"
+    ],
+    "Introspection & Documentation Generation": [
+      "src/describe.py",
+      "src/docsgen.py",
+      "scripts/gen_page_type_docs.py",
+      "docsite/conf.py",
+      "docsite/index.md",
+      "docsite/page-types.md"
+    ],
+    "Developer Tooling & Hot Reload": [
+      "src/hmr_server.py",
+      "src/hmr_live_refresh.py",
+      "src/_hmr_debug.py",
+      "scripts/mcp_probe.py",
+      "scripts/feature_brief_probe.py",
+      "scripts/validate_workspace.py",
+      "justfile",
+      "pyproject.toml"
+    ],
+    "Test Fixtures": [
+      "src/testtypes.py",
+      "src/testcharts.py"
+    ],
+    "Project Documentation": [
+      "README.md",
+      "CLAUDE.md"
+    ],
+    "python-statemachine Reference Docs": [
+      "docs/python-statemachine/index.md",
+      "docs/python-statemachine/api.md",
+      "docs/python-statemachine/actions.md",
+      "docs/python-statemachine/async.md",
+      "docs/python-statemachine/authors.md",
+      "docs/python-statemachine/behaviour.md",
+      "docs/python-statemachine/concepts.md",
+      "docs/python-statemachine/conf.py",
+      "docs/python-statemachine/contributing.md",
+      "docs/python-statemachine/diagram.md",
+      "docs/python-statemachine/error_handling.md",
+      "docs/python-statemachine/events.md",
+      "docs/python-statemachine/guards.md",
+      "docs/python-statemachine/how-to/coming_from_state_pattern.md",
+      "docs/python-statemachine/how-to/coming_from_transitions.md",
+      "docs/python-statemachine/installation.md",
+      "docs/python-statemachine/integrations.md",
+      "docs/python-statemachine/invoke.md",
+      "docs/python-statemachine/io/formats.md",
+      "docs/python-statemachine/io/index.md",
+      "docs/python-statemachine/io/json_schema.md",
+      "docs/python-statemachine/io/security.md",
+      "docs/python-statemachine/listeners.md",
+      "docs/python-statemachine/models.md",
+      "docs/python-statemachine/processing_model.md",
+      "docs/python-statemachine/statechart.md",
+      "docs/python-statemachine/states.md",
+      "docs/python-statemachine/timeout.md",
+      "docs/python-statemachine/transitions.md",
+      "docs/python-statemachine/tutorial.md",
+      "docs/python-statemachine/validations.md",
+      "docs/python-statemachine/weighted_transitions.md"
+    ],
+    "Other": [
+      "tests/conftest.py",
+      "tests/test_cleanup.py",
+      "tests/test_commands.py",
+      "tests/test_describe.py",
+      "tests/test_docsgen.py",
+      "tests/test_fsm.py",
+      "tests/test_pagetypes.py",
+      "tests/test_render.py",
+      "tests/test_render_html.py",
+      "tests/test_rwlock.py",
+      "tests/test_serialize.py",
+      "tests/test_server.py",
+      "tests/test_statecharts.py",
+      "tests/test_store.py",
+      "tests/test_testtypes.py",
+      "tests/test_web.py",
+      "tests/test_workspace_guidance.py"
+    ]
+  },
+  "moduleTree": [
+    {
+      "name": "MCP Server & Web Interface",
+      "slug": "mcp-server-web-interface",
+      "files": [
+        "src/server.py",
+        "src/render_html.py",
+        "src/templates/_base.html",
+        "src/templates/_nav.html",
+        "src/templates/_reloader.js",
+        "src/templates/_theme.js",
+        "src/templates/_view_toggle.js",
+        "src/templates/error.html",
+        "src/templates/index.html",
+        "src/templates/page.html",
+        "src/templates/tree.html",
+        "src/static/styles.css",
+        "src/static/water.css/water.css",
+        "main.py"
+      ]
+    },
+    {
+      "name": "Workspace Store & Persistence",
+      "slug": "workspace-store-persistence",
+      "files": [
+        "src/store.py",
+        "src/serialize.py",
+        "src/model.py",
+        "src/rwlock.py",
+        "src/ids.py",
+        "src/cleanup.py"
+      ]
+    },
+    {
+      "name": "Command & Mutation Engine",
+      "slug": "command-mutation-engine",
+      "files": [
+        "src/commands.py",
+        "src/errors.py"
+      ]
+    },
+    {
+      "name": "Page Type Framework",
+      "slug": "page-type-framework",
+      "files": [
+        "src/pagetypes/core/__init__.py",
+        "src/pagetypes/core/pagetype.py",
+        "src/pagetypes/core/args.py",
+        "src/pagetypes/core/commands.py",
+        "src/pagetypes/core/fields.py",
+        "src/pagetypes/core/specs.py",
+        "src/pagetypes/core/validation.py",
+        "src/pagetypes/__init__.py",
+        "src/pagetypes/_registry.py",
+        "src/__init__.py"
+      ]
+    },
+    {
+      "name": "Page Type Definitions",
+      "slug": "page-type-definitions",
+      "files": [
+        "src/pagetypes/architecture.py",
+        "src/pagetypes/bug_report.py",
+        "src/pagetypes/decision_record.py",
+        "src/pagetypes/document.py",
+        "src/pagetypes/epic.py",
+        "src/pagetypes/feature.py",
+        "src/pagetypes/simple_change.py",
+        "src/pagetypes/toc.py",
+        "src/pagetypes/_stage_guidance.py",
+        "src/pagetypes/_workspace_guidance.py"
+      ]
+    },
+    {
+      "name": "State Machines & Statecharts",
+      "slug": "state-machines-statecharts",
+      "files": [
+        "src/fsm.py",
+        "src/statecharts.py"
+      ]
+    },
+    {
+      "name": "Markdown Rendering",
+      "slug": "markdown-rendering",
+      "files": [
+        "src/render.py"
+      ]
+    },
+    {
+      "name": "Introspection & Documentation Generation",
+      "slug": "introspection-documentation-generation",
+      "files": [
+        "src/describe.py",
+        "src/docsgen.py",
+        "scripts/gen_page_type_docs.py",
+        "docsite/conf.py",
+        "docsite/index.md",
+        "docsite/page-types.md"
+      ]
+    },
+    {
+      "name": "Developer Tooling & Hot Reload",
+      "slug": "developer-tooling-hot-reload",
+      "files": [
+        "src/hmr_server.py",
+        "src/hmr_live_refresh.py",
+        "src/_hmr_debug.py",
+        "scripts/mcp_probe.py",
+        "scripts/feature_brief_probe.py",
+        "scripts/validate_workspace.py",
+        "justfile",
+        "pyproject.toml"
+      ]
+    },
+    {
+      "name": "Test Fixtures",
+      "slug": "test-fixtures",
+      "files": [
+        "src/testtypes.py",
+        "src/testcharts.py"
+      ]
+    },
+    {
+      "name": "Project Documentation",
+      "slug": "project-documentation",
+      "files": [
+        "README.md",
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "name": "python-statemachine Reference Docs",
+      "slug": "python-statemachine-reference-docs",
+      "files": [
+        "docs/python-statemachine/index.md",
+        "docs/python-statemachine/api.md",
+        "docs/python-statemachine/actions.md",
+        "docs/python-statemachine/async.md",
+        "docs/python-statemachine/authors.md",
+        "docs/python-statemachine/behaviour.md",
+        "docs/python-statemachine/concepts.md",
+        "docs/python-statemachine/conf.py",
+        "docs/python-statemachine/contributing.md",
+        "docs/python-statemachine/diagram.md",
+        "docs/python-statemachine/error_handling.md",
+        "docs/python-statemachine/events.md",
+        "docs/python-statemachine/guards.md",
+        "docs/python-statemachine/how-to/coming_from_state_pattern.md",
+        "docs/python-statemachine/how-to/coming_from_transitions.md",
+        "docs/python-statemachine/installation.md",
+        "docs/python-statemachine/integrations.md",
+        "docs/python-statemachine/invoke.md",
+        "docs/python-statemachine/io/formats.md",
+        "docs/python-statemachine/io/index.md",
+        "docs/python-statemachine/io/json_schema.md",
+        "docs/python-statemachine/io/security.md",
+        "docs/python-statemachine/listeners.md",
+        "docs/python-statemachine/models.md",
+        "docs/python-statemachine/processing_model.md",
+        "docs/python-statemachine/statechart.md",
+        "docs/python-statemachine/states.md",
+        "docs/python-statemachine/timeout.md",
+        "docs/python-statemachine/transitions.md",
+        "docs/python-statemachine/tutorial.md",
+        "docs/python-statemachine/validations.md",
+        "docs/python-statemachine/weighted_transitions.md"
+      ]
+    },
+    {
+      "name": "Other",
+      "slug": "other",
+      "files": [
+        "tests/conftest.py",
+        "tests/test_cleanup.py",
+        "tests/test_commands.py",
+        "tests/test_describe.py",
+        "tests/test_docsgen.py",
+        "tests/test_fsm.py",
+        "tests/test_pagetypes.py",
+        "tests/test_render.py",
+        "tests/test_render_html.py",
+        "tests/test_rwlock.py",
+        "tests/test_serialize.py",
+        "tests/test_server.py",
+        "tests/test_statecharts.py",
+        "tests/test_store.py",
+        "tests/test_testtypes.py",
+        "tests/test_web.py",
+        "tests/test_workspace_guidance.py"
+      ]
+    }
+  ]
+}
